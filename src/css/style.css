@@ -9,10 +9,65 @@ a{
     text-decoration: none;
 }
 
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+p{
+    line-height: 120%;
+}
+
 /*Header*/
 
 header ul li{
     text-align: center;
     padding: 10px 10px;
     margin: 10px 10px;
+}
+
+section.banner{
+    text-align: center;
+    padding: 0 5% 5%;
+}
+
+section.banner h1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+}
+
+section.banner button{
+    margin: 10px 0 10px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: #FF6464;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section.posts{
+    background-color: #EDF7FA;
+    padding: 10px;
+}
+
+section.posts h2{
+    text-align: center;
+    margin: 15px;
+}
+
+section.posts ul li{
+    background-color: white;
+    padding: 15px;
+    margin: 12px 10px 12px 10px;
+}
+
+section.posts ul li h3{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+section.posts ul li p{
+    font-size: 0.8rem;
+    margin: 5px 0 5px 0;
 }
