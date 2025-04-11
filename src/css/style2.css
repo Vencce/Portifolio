@@ -65,19 +65,19 @@ section.featwork h1 {
   padding: 10px 15px 10px 15px;
 }
 
-section.featwork ul li h2 {
+section.featwork h2 {
   font-weight: bold;
   font-size: 2rem;
   color: #21243d; 
 }
 
-section.featwork ul li p.info {
+section.featwork p.info {
   margin: 10px 0 10px 0;
   color: #21243d;
   padding: 10px 15px 10px 15px;
 }
 
-section.featwork ul li p.info span {
+section.featwork p.info span {
     background-color: #FF7C7C;
     color: white;
     padding: 3px 10px;
@@ -85,6 +85,32 @@ section.featwork ul li p.info span {
     font-weight: bold;
 }
 
+section.featwork p {
+  margin: 10px 0 10px 0;
+  color: #21243d;
+  padding: 10px 15px 10px 15px;
+}
+
+section.featwork2 h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #21243d;
+  margin: 10px 0 10px 0;
+  padding: 10px 15px 10px 15px;
+}
+
+section.featwork2 h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #21243d;
+  padding: 10px 15px 10px 15px;
+}
+
+section.featwork2 p {
+  margin: 10px 0 10px 0;
+  color: #21243d;
+  padding: 10px 15px 10px 15px;
+}
 /*Footer*/
 
 footer p.social a {
