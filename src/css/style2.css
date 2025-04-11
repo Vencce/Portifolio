@@ -23,7 +23,7 @@ section h2 {
   margin: 15px;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
@@ -58,59 +58,34 @@ section.banner button {
 
 /*Especifico*/
 
-section.posts {
-  background-color: #edf7fa;
-  padding: 10px;
+section.featwork h1 {
+  font-size: 2rem;
+  margin: 10px 0 10px 0;
+  color: #21243d;
+  padding: 10px 15px 10px 15px;
 }
 
-section.posts ul li {
-  background-color: white;
-  padding: 15px;
-  margin: 12px 10px 12px 10px;
-}
-
-section.posts ul li h3 {
+section.featwork ul li h2 {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 2rem;
+  color: #21243d; 
 }
 
-section.posts ul li p {
-  font-size: 0.8rem;
-  margin: 5px 0 5px 0;
+section.featwork ul li p.info {
+  margin: 10px 0 10px 0;
+  color: #21243d;
+  padding: 10px 15px 10px 15px;
 }
 
-section.works {
-  padding: 20px 10px 20px 10px;
+section.featwork ul li p.info span {
+    background-color: #FF7C7C;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: bold;
 }
 
-section.works ul li {
-  padding: 15px 0;
-}
-
-section.works ul li h3 {
-  font-weight: bold;
-  font-size: 1.3rem;
-  line-height: 130%;
-  margin: 15px 0 15px 0;
-}
-
-section.works ul li p.info {
-  color: #8695A4;
-  margin: 15px 0 15px 0;
-}
-
-section.works ul li p.info span {
-  background-color: #142850;
-  color: white;
-  padding: 3px 10px;
-  border-radius: 20px;
-  font-weight: bold;
-}
-
-section.works ul {
-  border-bottom: 1px solid grey;
-
-}
+/*Footer*/
 
 footer p.social a {
   text-align: center;
