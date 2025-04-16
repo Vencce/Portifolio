@@ -184,4 +184,8 @@ footer p {
   section.works ul li img {
     width: 80%;
   }
+
+  section.works ul {
+    border: none;
+  }
 }
