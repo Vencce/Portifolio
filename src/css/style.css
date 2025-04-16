@@ -18,12 +18,7 @@ p {
   line-height: 120%;
 }
 
-section h2 {
-  text-align: center;
-  margin: 15px;
-}
-
-img{
+img {
   max-width: 100%;
 }
 
@@ -67,16 +62,18 @@ section.posts ul li {
   background-color: white;
   padding: 15px;
   margin: 12px 10px 12px 10px;
+  border-radius: 10px;
 }
 
 section.posts ul li h3 {
   font-weight: bold;
   font-size: 1.1rem;
+  margin: 20px;
 }
 
 section.posts ul li p {
   font-size: 0.8rem;
-  margin: 5px 0 5px 0;
+  margin: 20px;
 }
 
 section.works {
@@ -95,7 +92,7 @@ section.works ul li h3 {
 }
 
 section.works ul li p.info {
-  color: #8695A4;
+  color: #8695a4;
   margin: 15px 0 15px 0;
 }
 
@@ -109,7 +106,6 @@ section.works ul li p.info span {
 
 section.works ul {
   border-bottom: 1px solid grey;
-
 }
 
 footer p.social a {
@@ -120,4 +116,72 @@ footer p.social a {
 
 footer p {
   text-align: center;
+}
+
+@media (min-width: 1024px) {
+  header ul {
+    display: flex;
+    justify-content: right;
+  }
+
+  header ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  section.banner {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    margin: 5vw 10vw;
+  }
+
+  section.banner.imagem {
+    margin-left: 7vw;
+  }
+
+  section.posts h2 {
+    text-align: left;
+  }
+
+  section.posts {
+    padding: 5vw 10vw 5vw 10vw;
+  }
+
+  section.posts ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section.posts h2 {
+    font-size: 30px;
+    margin: 15px;
+  }
+
+  section.works h2 {
+    text-align: left;
+    font-size: 40px;
+  }
+
+  section.works {
+    padding: 5vw 10vw 5vw 10vw;
+  }
+
+  section.works ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section.works ul, section.posts ul {
+    display: flex;
+    flex-direction: space-between;
+  }
+
+  section.works ul li{
+    width: 80%;
+  }
+
+  section.works ul li img {
+    width: 80%;
+  }
 }
